@@ -1,0 +1,100 @@
+body{
+  background-image: linear-gradient(to bottom right, #000BFF, #00E8FF, white);
+  background-repeat: no-repeat;
+}
+
+.centrar{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contenedor{
+  border: 4px solid rgb(26, 26, 208);
+  border-radius: 15px;
+  width: 14em;
+  height: 13em;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: rgb(100, 193, 248);
+  box-shadow: 1em 1em 2em  #000BFF;
+  font-size: 1.7em;
+}
+
+h1{
+  color: white;
+  text-align: center;
+  font-size: 4.5em;
+  margin-top: 0.2em;
+}
+
+h3{
+  margin-top: 10px;
+ font-size: 2em; 
+ font-family: 'Times New Roman', Times, serif;
+}
+
+h2{
+  font-size: 3.5em;
+  margin-top: -35px;
+}
+
+.boton{
+  display: flex;
+  align-items: center;
+  margin-top: -50px;
+}
+
+button{
+  width: 2em;
+  height: 1.3em;
+  margin: 7.5px; 
+  color: blue;
+  font-size: 2.5em;
+  background-color: aquamarine;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+button:hover{
+  background-color: #00E8FF;
+}
+
+button:active{
+ color: aquamarine;
+ background-color: blue;
+}
+
+@media only screen and (max-width: 414px){
+  .contenedor{
+    width: 10em;
+    height: 9em;
+    font-size: 1.4em;
+  }
+
+h1{
+  font-size: 3.5em;
+  }
+  
+h3{
+  font-size: 1.5em; 
+  }
+  
+  button{
+    width: 1.3em;
+    height: 1em;
+    margin-top: -0.3em;
+    font-size: 2.5em;
+  }
+body{
+  height: 850px;
+}
+}
+
+
+
+
+
+
+

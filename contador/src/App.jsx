@@ -8,6 +8,6 @@ function App() {
     <Candidato titulo="Candidato 2"/>
       </>
   )
- }
+ } 
 export default App
  

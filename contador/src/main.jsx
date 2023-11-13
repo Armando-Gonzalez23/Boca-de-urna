@@ -7,8 +7,7 @@ import './App.css'
 ReactDOM.createRoot(document.getElementById('root')).render(
 
   <React.StrictMode>
-    <App title="Boca de urnas" titulo="Candidato 1"/>
-    <App titulo="Candidato 2"/>
+    <App />
   </React.StrictMode>
   
 )
